@@ -28,7 +28,6 @@ namespace RAG.API.Services
                 return null;
             }
 
-           // var key = "1PLB1KMmYLIpqcN1qfMtVr55mAT594mBZyztTBFRVZBAi8dvKaQnJQQJ99BFACYeBjFXJ3w3AAABACOGuiIS";
             if (string.IsNullOrEmpty(key))
             {
                 Console.WriteLine("Please set the AZURE_OPENAI_KEY environment variable.");
